@@ -82,12 +82,36 @@ public class FlujoControl {
 		 	System.out.println((numero >=1 && numero <= 10) ? "Dentro del rango" : "Fuera del rango");
 		//---------------------------------
 		// ------------Clase scanner----------
-		 Scanner myScan;
+		//Scanner myScan = new Scanner( System.in);
+		 Scanner myScan; // Scanner Sc
 		 myScan = new Scanner( System.in );
-		 System.out.print("Escribe tu nombre: ");
-		 String myName = myScan.nextLine(); // leer hasta /n (salto de línea)
+//		 System.out.print("Escribe tu nombre: ");
+//		 String myName = myScan.next(); // leer hasta /n (salto de línea)
+//		 System.out.println("Tu nombre es: " + myName);
+//		 String myLastName = myScan.next();
+//		 System.out.println("Tu apellido es: " + myLastName);
+//		 myScan.nextLine(); // consumimos el resto de caracteres (\n) del buffer
+		 System.out.print("Escribe tu edad: ");
+		 //String ageTxt = myScan.nextLine();
+		 //int age = Integer.parseInt(ageTxt);
 		 
-		 System.out.println("Tu nombre es: " + myName);
+		 if( myScan.hasNextInt()) {
+			 
+			 int age = myScan.nextInt(); // Leer un número entero
+			 myScan.nextLine();
+			 
+			 System.out.println("Tu edad es: " + age);
+			 System.out.println("Pronto cumplirás: " + (age+1));
+			 
+			 myScan.close(); // Cerramos la referencia
+			 
+		 }
+		 else {
+			 System.out.println("Lo siento, no escribiste un número");
+		 }
+		 myScan.close(); // Cerramos la referencia
+			 
+		 
 	
 	}
 
