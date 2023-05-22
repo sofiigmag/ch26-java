@@ -30,8 +30,11 @@ public class ATM {
 	
 	// constructores
 	ATM(String serialNumber, double balance){
-		this.serialNumber = serialNumber;
-		this.balance = balance;
+		//this.serialNumber = serialNumber;
+		//this.balance = balance;
+		// Llamar a otro constructor, se usa this().
+		// Tiene que ser la primera línea, por eso no se puede usar más de un constructor
+		this(balance); // ATM()
 	}
 	
 	// métodos de instancia
@@ -42,10 +45,6 @@ public class ATM {
 	// métodos de clase
 	static String getBankName() {
 		return "Bank: " + bankName;	
-	}
-	
-	static {
-		bankName = "Citibanamex S.A. de C.V.";
 	}
 	
 
