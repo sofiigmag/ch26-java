@@ -10,7 +10,7 @@ public class PokemonTest {
 		Scanner sc = new Scanner( System.in);
 		
 		Pokemon pikachu = new Pokemon("Pikachu", 41, 6);
-		Pokemon vamoACalmarnos = new Pokemon("Piakchu de agua", 50,9);
+		Pokemon vamoACalmarnos = new Pokemon("Pikachu de agua", 50,9);
 		 
 		
 		
