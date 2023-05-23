@@ -12638,3 +12638,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-05-23 11:09:21.779
 !MESSAGE Classpath changed for project: java10-encapsulacion
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-05-23 17:17:49.062
+!MESSAGE Classpath changed for project: java10-encapsulacion
