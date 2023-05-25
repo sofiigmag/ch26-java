@@ -14,8 +14,6 @@ public class CicloFor {
 		 * for (expresion_inicial ; comparacion; expresion_final){
 		 * 		instrucciones;
 		 * }
-		 * 
-		 * 
 		 */
 		// Imprimir 5 veces "Hola"
 				
