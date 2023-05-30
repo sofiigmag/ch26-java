@@ -11,4 +11,7 @@
     <fullyQualifiedTypeName name="com.mundoanimal.Canine"/>
     <fullyQualifiedTypeName name="com.mundoanimal.Dog"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+    <fullyQualifiedTypeName name="org.junit.platform.suite.api.Suite"/>
+    <fullyQualifiedTypeName name="org.junit.platform.suite.api.SelectClasses"/>
 </qualifiedTypeNameHistroy>
